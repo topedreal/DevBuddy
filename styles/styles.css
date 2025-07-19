@@ -1,0 +1,73 @@
+/* ===============================
+   GLOBAL RESET
+================================== */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Fira Sans', sans-serif;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #212529;
+}
+
+/* ===============================
+   HERO SECTION
+================================== */
+.hero {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero-icon {
+  font-size: 5rem;
+  color: #ffffffcc;
+  margin-bottom: 20px;
+}
+
+/* ===============================
+   FEATURES SECTION
+================================== */
+.features .card {
+  transition: transform 0.2s;
+}
+
+.features .card:hover {
+  transform: scale(1.05);
+}
+
+
+
+/* ===============================
+   FOOTER SECTION
+================================== */
+.footer-section {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: white;
+}
+
+.footer-section a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .footer-zigzag .col-md-4:nth-child(2) {
+    text-align: end;
+  }
+
+  .footer-zigzag .col-md-4:nth-child(3) {
+    text-align: start;
+  }
+}
